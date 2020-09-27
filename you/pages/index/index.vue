@@ -45,6 +45,9 @@
 			...mapState({
 				cateList(state){
 					return state.goods.cateList
+				},
+				cateActiveId(state){
+					return state.goods.cateActiveId
 				}
 			})
 		},

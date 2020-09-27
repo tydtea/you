@@ -42,6 +42,21 @@ app.get("/focusList",async (req,res)=>{
     res.json(data.data.focusList)
 })
 
+app.get("/policyDescList",async  (req,res)=>{
+    const {data} =  await request("https://m.you.163.com/xhr/index.json");
+    res.json(data.data.policyDescList)
+})
+
+// 商品类别导航
+app.get("/kingKongList",async (req,res)=>{
+    const {data} = await request("https://m.you.163.com/xhr/index.json");
+    res.json(data.data.kingKongModule.kingKongList)
+})
+// 获得商品列表
+app.get("/categoryModule",async(req,res)=>{
+    const categoryModule = require("./data/categoryModule.json");
+    res.json(categoryModule)
+})
 app.listen(8090,function () {
     console.log("success");
 })

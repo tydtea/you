@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "component": true
+  "component": true,
+  "usingComponents": {
+    "cate-gory-module": "/components/Recommend/CateGoryModule"
+  }
 }
