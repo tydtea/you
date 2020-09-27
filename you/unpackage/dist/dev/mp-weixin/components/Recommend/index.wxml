@@ -1,0 +1,1 @@
+<view class="recommendContainer"><swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}"><block wx:for="{{focusList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><swiper-item><view class="swiper-item"><image src="{{item.picUrl}}"></image></view></swiper-item></block></swiper></view>

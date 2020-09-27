@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62b2216a-8369-4817-ac78-92ec61d854dc" name="Default Changelist" comment="" />
+    <list default="true" id="62b2216a-8369-4817-ac78-92ec61d854dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../you/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/common/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/common/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/common/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +31,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1hzjlsVwFdpGlsyRtYr8mIBy7w5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +45,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
@@ -57,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601020968265</updated>
       <workItem from="1601020969816" duration="2485000" />
+      <workItem from="1601168505048" duration="6156000" />
     </task>
     <servers />
   </component>
@@ -64,21 +90,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1601022256757">
+    <state width="1345" height="15" key="GridCell.Tab.0.bottom" timestamp="1601172222774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601022256757" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1601022256757">
+    <state width="1345" height="15" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601172222774" />
+    <state width="1345" height="15" key="GridCell.Tab.0.center" timestamp="1601172222774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601022256757" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1601022256757">
+    <state width="1345" height="15" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601172222774" />
+    <state width="1345" height="15" key="GridCell.Tab.0.left" timestamp="1601172222773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601022256757" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1601022256757">
+    <state width="1345" height="15" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601172222773" />
+    <state width="1345" height="15" key="GridCell.Tab.0.right" timestamp="1601172222774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601022256757" />
+    <state width="1345" height="15" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601172222774" />
   </component>
 </project>

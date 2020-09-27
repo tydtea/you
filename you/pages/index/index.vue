@@ -11,43 +11,66 @@
 		</view>
 		<view class="navContainer">
 			<scroll-view
-			:scroll-into-view="'scroll'+activeIndex"
+			:scroll-into-view="'scroll'+cateActiveId"
 			scroll-with-animation
 			 class="scrollContainer" enable-flex scroll-x="true" >
-			 <view class="scollContent">
-				 <view @click="changeActiveIndex(index)" :id="'scroll'+index" :class="{active:index===activeIndex}" v-for="(item,index) in kingKongList" :key="index">
-				 	{{item.text}}
+			 <view  class="scollContent">
+				 <view :id="'scroll'+item.id" 
+				 @click="CAHANGE_CATE_ACTIVE_ID(item.id)"
+				 :class="{'active':item.id===cateActiveId}"
+				  v-for="item in cateList" :key="item.id">
+				 	{{item.name}}
 				 </view>
 			 </view>
 				
 			</scroll-view>
 		</view>
-		
+		<!-- 推荐组件 -->
+		<Recommend></Recommend>
 	</view>
 </template>
 
 <script>
-	import request from "../../utils/request";
+	import {mapState,mapActions,mapMutations} from "vuex";
+	import Recommend from "../../components/Recommend"
     export default {
 		data(){
 			return {
-				activeIndex:0,// 导航选中的下标
-				kingKongList:[]
+				// 滑动导航的选中id
+				// cateActiveId:0,
+				// cateList:[]
 			}
+		},
+		computed:{
+			...mapState({
+				cateList(state){
+					return state.goods.cateList
+				}
+			})
 		},
 		mounted(){
-			this.getkingKongList();
+			// this.$store.dispatch("getCateList");
+			this.getCateList();
 		},
 		methods:{
-			// 更改activeIndex
-			changeActiveIndex(index){
-				this.activeIndex = index;
-			},
-			// 获取头部导航  vuex
-			async getkingKongList(){
-				this.kingKongList = await request.get("/kingKongList");
-			}
+			...mapMutations(["CAHANGE_CATE_ACTIVE_ID"]),
+			...mapActions(["getCateList"]),
+			// async getCateList(){
+			// 	// 将server作为一个中转站（中间层）来调用m.you.163.com.
+			// 	// 网易云音乐 server--> 中间层
+			// 	// this.cateList = await this.$ajax.get("/cateList");
+				
+			// },
+			// 更改选中的ID
+			// changeCateActiveId(id){
+			// 	this.cateActiveId = id;
+			// }
+			
+		},
+		components:{
+			Recommend
 		}
+	
 	}
 </script>
 

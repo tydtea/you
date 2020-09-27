@@ -1,6 +1,7 @@
 class Request {
 	constructor() {
 	    this.baseUrl = "http://127.0.0.1:8090"
+		// this.baseUrl = "";
 		// this.baseUrl = "/you";// h5
 	}
 	request(url,method,data){
@@ -24,3 +25,9 @@ class Request {
 	}
 }
 export default new Request();
+// export default {
+// 	install(Vue){
+		
+// 		Vue.prototype.$ajax = new Request();
+// 	}
+// }
