@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b2216a-8369-4817-ac78-92ec61d854dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../you/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../you/pages/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/common/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../you/unpackage/dist/dev/mp-weixin/pages/index/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601020968265</updated>
       <workItem from="1601020969816" duration="2485000" />
-      <workItem from="1601168505048" duration="9874000" />
+      <workItem from="1601168505048" duration="10578000" />
     </task>
     <servers />
   </component>

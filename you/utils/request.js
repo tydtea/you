@@ -7,7 +7,7 @@ class Request {
 	request(url,method,data){
 		return new Promise((resolve,reject)=>{
 			uni.request({
-				url:this.baseUrl+url,
+				url:url.includes("https://")?url:this.baseUrl+url,
 				method,
 				data,
 				success(res){

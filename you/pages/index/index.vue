@@ -26,13 +26,16 @@
 			</scroll-view>
 		</view>
 		<!-- 推荐组件 -->
-		<Recommend></Recommend>
+		<!-- <component is=></component> -->
+		<Recommend v-if="cateActiveId===0"></Recommend>
+		<GoodsList :cateActiveId="cateActiveId"  v-else></GoodsList>
 	</view>
 </template>
 
 <script>
 	import {mapState,mapActions,mapMutations} from "vuex";
-	import Recommend from "../../components/Recommend"
+	import Recommend from "../../components/Recommend";
+	import GoodsList from "../../components/GoodsList"
     export default {
 		data(){
 			return {
@@ -71,7 +74,8 @@
 			
 		},
 		components:{
-			Recommend
+			Recommend,
+			GoodsList
 		}
 	
 	}

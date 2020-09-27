@@ -4,8 +4,9 @@
 			<image class="titlePic" :src="item.titlePicUrl"></image>
 			<scroll-view scroll-x="true" >
 				<view class="scrollContent">
-					<view v-for="info in item.itemList" :key="info.id">
+					<view class="infoItem" v-for="info in item.itemList" :key="info.id">
 						<image :src="info.listPicUrl"></image>
+						<text>{{info.name}}</text>
 					</view>
 				</view>
 			</scroll-view>
@@ -41,10 +42,24 @@
 		}
 		.scrollContent{
 			display:flex;
-			image{
-				width:200rpx;
-				height:200rpx;
+			.infoItem{
+				margin-right:20rpx;
+				image{
+					width:200rpx;
+					height:200rpx;
+				}
+				text{
+					font-size: 24rpx;
+					line-height: 40rpx;
+					width: 100%;
+					white-space: pre-wrap;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					overflow: hidden;
+				}
 			}
+			
 		}
 	}
 </style>

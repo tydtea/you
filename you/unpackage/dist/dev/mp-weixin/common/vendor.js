@@ -7784,7 +7784,7 @@ function normalizeComponent (
     url, method, data) {var _this = this;
       return new Promise(function (resolve, reject) {
         uni.request({
-          url: _this.baseUrl + url,
+          url: url.includes("https://") ? url : _this.baseUrl + url,
           method: method,
           data: data,
           success: function success(res) {
