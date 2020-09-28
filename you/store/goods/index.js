@@ -1,7 +1,7 @@
 import request from "../../utils/request.js";
 import mutationsType from "./mutationsType.js";
 const state = {
-	cateActiveId:0,
+	cateActiveId:1005000,
 	cateList:[],
 	// 商品导航
 	kingKongList:[],

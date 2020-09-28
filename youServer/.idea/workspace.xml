@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b2216a-8369-4817-ac78-92ec61d854dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../you/components/GoodsList/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../you/components/GoodsList/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../you/static/iconfont/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/../you/static/iconfont/iconfont.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/学习笔记" beforeDir="false" afterPath="$PROJECT_DIR$/学习笔记" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +38,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="study.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/study.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.study.js" />
       </list>
     </recent_temporary>
   </component>
@@ -68,6 +76,7 @@
       <updated>1601020968265</updated>
       <workItem from="1601020969816" duration="2485000" />
       <workItem from="1601168505048" duration="10578000" />
+      <workItem from="1601252750401" duration="6614000" />
     </task>
     <servers />
   </component>
@@ -75,21 +84,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="122" key="GridCell.Tab.0.bottom" timestamp="1601189385007">
+    <state width="1345" height="2" key="GridCell.Tab.0.bottom" timestamp="1601257070449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601189385007" />
-    <state width="1345" height="122" key="GridCell.Tab.0.center" timestamp="1601189385007">
+    <state width="1345" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601257070449" />
+    <state width="1345" height="2" key="GridCell.Tab.0.center" timestamp="1601257070448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601189385007" />
-    <state width="1345" height="122" key="GridCell.Tab.0.left" timestamp="1601189385006">
+    <state width="1345" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601257070448" />
+    <state width="1345" height="2" key="GridCell.Tab.0.left" timestamp="1601257070448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601189385006" />
-    <state width="1345" height="122" key="GridCell.Tab.0.right" timestamp="1601189385007">
+    <state width="1345" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601257070448" />
+    <state width="1345" height="2" key="GridCell.Tab.0.right" timestamp="1601257070449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601189385007" />
+    <state width="1345" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601257070449" />
   </component>
 </project>

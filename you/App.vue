@@ -15,4 +15,9 @@
 <style>
 	/*每个页面公共css */
 	@import "/static/iconfont/iconfont.css";
+	page{
+		width:100%;
+		height:100%;
+	}
+		
 </style>

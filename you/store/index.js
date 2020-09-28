@@ -3,7 +3,8 @@ import Vuex from "vuex";
 // 引入广告模块
 import adv from "./adv";
 // 引入商品模块
-import goods from "./goods"
+import goods from "./goods";
+import cart from "./cart";
 Vue.use(Vuex);// 使用  install(Vue)
 // 导出
 export default new Vuex.Store({
@@ -14,6 +15,7 @@ export default new Vuex.Store({
 	actions:{},
 	modules:{
 		adv,
-		goods
+		goods,
+		cart
 	}
 })
